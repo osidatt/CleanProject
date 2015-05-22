@@ -34,26 +34,26 @@ setwd("~/Desktop//Coursera/CleanProject/")
 
 
 
-### Merged
+### 5. Merged
 #### Type: Data frame
 #### Content: Containsthe merging of TestMergedData and TrainMergedData
 
-### FeatureNames
+### 6. FeatureNames
 ### Type: Data frame
 ### Content: Contains the codes and label for each feature name
 
-### IndexMeanStdOnly
+### 7. IndexMeanStdOnly
 #### Type: Vector
 #### Content: Only the index of the FeatureNames where there is mean and std mentionned
 
-### MergedMeanStdOnly
+### 8. MergedMeanStdOnly
 #### Type: Data frame
 #### Content: Contains only the data for rows in the MergedData corresponding to index IndexMeanStdOnly
 
-#### FinalMergedData
+#### 9. FinalMergedData
 #### Type: Data frame
 #### Content: MergedDataStdOnly but with activity labels described and feature columns named
 
-#### TidySummaryMeanStd
+#### 10. TidySummaryMeanStd
 #### Type: Data frame
 #### Content: Contains the data frame for MergedDataStdOnly but summarized mean for each feauture
